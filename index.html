@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="(() => alert('Hello World!'))()">Click Me!</button>
+    
+    <p>Вгадайте число від 1 до 100:</p>
+    <input type="text" id="guessField">
+    <button type="button" onclick="checkGuess()">Перевірити</button>
+    <p id="guessResult"></p>
+
+    <p>Кількість кліків: <span id="clickCount">0</span></p>
+    <script src="script.js"></script>
+</body>
+</html>
